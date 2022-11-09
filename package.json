@@ -45,6 +45,7 @@
   },
   "main": "index.js",
   "devDependencies": {
+    "@babel/helper-compilation-targets": "^7.20.0",
     "netlify-cli": "^10.1.0"
   },
   "keywords": [],

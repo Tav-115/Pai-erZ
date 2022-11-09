@@ -113,6 +113,7 @@
 .caja-fija{
     height: 8rem;
     
+    
 }
 
 a.myanchor {
@@ -121,3 +122,12 @@ a.myanchor {
        top: -180px;
        visibility: hidden;} 
                             /* hasta aca */
+.s-grid-3{
+    width: 95%!important;
+}
+.xl-grid-4 {
+                                width: 100%;
+                                max-width: 1200px!important;
+                                margin-right: 0;
+                                margin-left: 0;
+                              }

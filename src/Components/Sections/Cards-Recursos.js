@@ -6,7 +6,7 @@ import Covid from "../Sections/covid"
 const CardsRecursos = () => (
    <div>
   <div className="ed-grid caja-fija">   
-      <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-3 fijo">
+      <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-4 fijo">
       
          <a className="button light-color " href="#Lineamientos">Lineamientos</a>
          <a className="button light-color " href="#Memos">Memos</a>
@@ -56,7 +56,7 @@ const CardsRecursos = () => (
    subt="Antigripal adyuvantada (26-7-22)"
    image="https://drive.google.com/uc?export=download&id=1j2Wv0Ba5L7SwgxrcKhL9Rx3qWqQdqvmO" 
    pages="1"
-   link="https://drive.google.com/file/d/15ECcoP4kcRoO6U6Ag6feOnAgBSYIwQsd/view?usp=sharing"/> 
+   link="https://drive.google.com/file/d/151M3feSQN3XQ4vQshFBYDDFTTArVN8Pj/view?usp=sharing"/> 
             
 
       <RecursosCard nombre="Extensiones Vacunas Covid" 
@@ -118,8 +118,15 @@ const CardsRecursos = () => (
 
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
       <a name="Lineamientos" className="myanchor"></a> 
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Lineamientos Técnicos</h2>           
-      
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Lineamientos Técnicos</h2>     
+
+      <div className="slider--section box-shadow">
+   <RecursosCard nombre="Lineamientos Técnicos" 
+   subt="3er Refuerzo Covid"
+   image="https://drive.google.com/uc?export=download&id=1_obQxbZmGyH9InceutsGdYD0mn_bGFdQ" 
+   link="https://drive.google.com/file/d/1st9JiEg_uSMq_ACV1J3kwciyh8jakCYz/view?usp=sharing"/> 
+      </div>
+
       <RecursosCard nombre="Lineamientos Técnicos." 
       subt="Sarampion, Rubeola, Paperas y Poliomielitis."
       image="https://drive.google.com/uc?export=download&id=1OqQFhh42HwJqLuzW7S4TYifmArRYiwrq" 
@@ -344,7 +351,13 @@ const CardsRecursos = () => (
       <a name="Circulares" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Circulares</h2>      
 
-               
+      <div className="slider--section box-shadow">
+   <RecursosCard nombre="Circular 3er Refuerzo" 
+   subt="Covid"
+   image="https://drive.google.com/uc?export=download&id=1uJKAgmSVz4DMQ1bxvgTdMacD8xQs67E7" 
+   link="https://drive.google.com/file/d/1UIX2fH4AH7gg20Sk0ZnYHLQoeMF90S7T/view?usp=sharing"/> 
+      </div>
+
       <RecursosCard nombre="Moderna Pediátrica." 
       subt="6 m a 2 años."
       image="https://drive.google.com/uc?export=download&id=1z_u4b1pXlOzb68knjpREJ4myAb4ZB5Gv"
