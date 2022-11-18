@@ -23,9 +23,7 @@
     "build:staging": "env-cmd -f .env.staging npm run build",
     "eject": "react-scripts eject",
     "build": "babel src -d lib",
-     "test": "jest"
-      }
-    }
+    "test": "jest"
   },
   "cssnano": {
     "preset": [
